@@ -1,0 +1,7 @@
+start
+read the student_percentage
+if (student_percentage>85)
+	print("eligible to take admission")
+else
+	print("not eligible to take admission")
+stop

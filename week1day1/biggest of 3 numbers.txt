@@ -1,0 +1,10 @@
+start
+read the numbers number1,number2,number3
+if(number1 < number2||number1 < number3)
+   if(number2>number3)
+	print("number2 is greater")
+   else
+	print("number3 is greater")
+else
+	print("number1 is greater")
+stop

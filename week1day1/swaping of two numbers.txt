@@ -1,0 +1,6 @@
+start
+read number1_value,number2_value
+x<-- number1_value, y<--number2_value
+swap= number1_value<--y,number2_value<--x
+print number1_value,number2_value
+stop

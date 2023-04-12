@@ -1,0 +1,5 @@
+start
+ read the principal amount, rate of interest, no of years
+ find the compound_interest using the formula compound_interest = p*((1+r/100)^t)
+ print compound_interest
+ end

@@ -1,0 +1,7 @@
+start
+read basic salary
+find the DA<--(50/100)*basic salary
+find the HRM<--(20/100)*basic salary 
+find the gross salary <---(basic salary+DA+HRM)
+print gross salary
+stop
