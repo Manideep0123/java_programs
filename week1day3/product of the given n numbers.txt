@@ -1,0 +1,8 @@
+1.start
+2.read number n
+3.intialize product<---1,i<---1
+4.repeat step 4-6 until (i<=n)
+5.product=product*1
+6.i=i+2
+7.print product
+8.end

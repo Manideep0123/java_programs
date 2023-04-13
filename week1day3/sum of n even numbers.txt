@@ -1,0 +1,8 @@
+start
+read number n
+initialiation sum=0,i=2
+if(i <= n)
+sum=sum+i
+i=i+2
+else
+print sum
