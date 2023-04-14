@@ -1,0 +1,14 @@
+1.start
+2.read the number
+3.temp_num=number
+4.initalize sum=0
+5.repeat the steps until the number!=0
+6.digit=n%10
+7.find the digit factorial
+8.sum=sum+digit!
+9.number=number/10
+10.if(sum=temp_num)
+	print(it is a strong number)
+11.else
+	print(it is not a strong number)
+12.stop

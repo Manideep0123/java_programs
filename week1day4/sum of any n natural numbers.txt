@@ -1,0 +1,8 @@
+1.start
+2.read the number n
+3.initalize sum=0,count=1
+4.repeat the steps until count is<=n
+5.read the number
+5.sum=sum+number
+6.count=count+1
+7.print sum

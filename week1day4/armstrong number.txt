@@ -1,0 +1,12 @@
+1.start
+2.read the number
+3.intialize sum=0,dup_num=number
+4.repeat the steps 5-7 until number!=0
+5.digit=number%10
+6.sum=sum+(digit*digit*digit)
+7.number=number/10
+8.if(sum=dup_number)
+	print(armstrong number)
+9.else
+	print(not a armstrong number)
+10.stop
