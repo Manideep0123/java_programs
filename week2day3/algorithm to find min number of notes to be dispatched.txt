@@ -1,0 +1,22 @@
+step1 : start
+step2 : read the amount
+step3 : initialize min_notes=0
+step4 : if (amount%100==0)
+         {
+             execute the steps a,b,c
+                  a. i=amount/500
+                     amount=amount%500
+                     min_notes=min_notes+i
+                     if(amount==0) go to sted d
+                  b. i=amount/200
+                     amount=amount%200
+                     min_notes=min_notes+i
+                     if(amount==0) go to sted d
+                  c. i=amount/100
+                     amount<--amount%100
+                     min_notes=min_notes+i
+                  d. print min_notes
+        }
+       else
+             print" amount is not dispatched"
+step6 :stop

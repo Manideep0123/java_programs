@@ -1,0 +1,20 @@
+1.start
+2.read the amount
+3.initialize final_amount=0,actual_price=amount
+4.if(amount>100000)
+    gst=(20/100)*amount
+    amount=amount+gst
+    discount=(10/100)*actual_price
+    final_amount=amount-discount
+  elseif(amount<100000 && amount>50000)
+    gst=(20/100)*amount
+    amount=amount+gst
+    discount=(5/100)*actual_price
+    final_amount=amount-discount
+  elseif
+    gst=(20/100)*amount
+    amount=amount+gst
+    discount=(2/100)*actual_price
+    final_amount=amount-discount
+5.print final_amount
+6.stop
