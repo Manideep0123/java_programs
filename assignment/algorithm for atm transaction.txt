@@ -1,0 +1,18 @@
+1.start
+2.go to the near by ATM machine
+3.insert the ATM card.
+4.select the language.
+5. if the card is new one you have to generate new pin.
+6.generate the new pin using otp.
+7. you will be asked to create a new pin. you can reset/create a new pin.
+8. after creating a new pin now you can select the type of account(savings/current).
+9.now click on withdraw option.
+10.enter the amount you like to withdraw and press continue.
+11. After sentering the amount enter your pin number and press continue.
+12.the screen will display that your transaction is been processed please wait...
+13.if the required amount is not available in the ATM machine it will display insufficent amount.
+14.if the amout is available it will verify the account and the amount will pop up from the ATM machine and now you can collect it from the ATM machine.
+15. after withdrawal it asks to dispaly the  bankbalance.
+16. either you can select yes(or)no.if you select yes your account balance will be dispalyed on the ATM machine.
+17. remove/collect your ATM card after your transaction has been completed.
+18.stop

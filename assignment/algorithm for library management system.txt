@@ -1,0 +1,30 @@
+step1:start
+step2:install the developed application called "library management system" in the library 
+step3:welcome page will be opened when we open the library management system
+step4:in the welcome page we will have two options 1.student 2.faculty
+step5:if we select student ,then it asks for signing up for creating a library account
+step6:then the student has to enter the required details in order to create the library account
+step7:after the account is created ,we need to login with user name and password
+step8:if the username or password is wrong/mismatched then we need to click on forget password
+step9:after clicking on forget password we can create a new password by entering the given email.
+step10:password reset link will be sent to gmail in order to reset the password
+step11:then login using the required credentials 
+step12:after succesfull login homepage will be displayed 
+step13:student can search the required books in the homepage
+step14:after selecting the required books either you can click on 1.borrow  2.read in the library
+step15:if we click on borrow the book will be slected on his id with some expiry date(max:1 week) and we can borrow that book
+step16:if we click on read in the library ,we can borrow the book ,read it and return back the book while leaving the library
+step17:while returning the book if the expiry date is exceeded or if the book is lost then there will be a penalty the student has to pay.
+step18:after returning back the book to library ,adminstrative will remove  the books selected in the web page/app  by the student. 
+step19:if we select faculty,a seperate page will open for faculty users
+step20:faculty can create a library account and can login to it 
+step21:if the username or password is wrong/mismatched then we need to click on forget password
+step22:after clicking on forget password we can create a new password by entering the given email.
+step23:password reset link will be sent to gmail in order to reset the password
+step24:after signing in faculty can browse ,search and pick the required books.
+step25:in faculty page he/she can access the books from all departments/branches
+step26:faculty can borrow the books by clicking on borow button or can read in library by clicking on read in lib button
+step27:if the faculty borrows the book there will be expiry date (max:2 weeks) if the faculty loses the book then they have to pay the penalty.
+step28:if the faculty reads the book in library ,they have to return it before leaving the library
+step29:after returning back the book to library adminstrative will remove  the books selected in the web page/app  by the student.
+step30:stop
