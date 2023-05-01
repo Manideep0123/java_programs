@@ -1,0 +1,68 @@
+//how to save, compile and run the java program
+1. filename.java(for saving)
+2. javac filename.java(for compiling)
+3. java filename(for runing)
+
+documentation section
+package statement
+import statements
+interface statements
+class definitions
+Main Method class
+{
+  Main Method Definition
+}
+
+Token: individual blocks of a program are known as token
+types of tokens:
+1.keywords: predefined words used for specific functions , it should be in lowercase only(ex. float, do, while)
+2.Identifiers: identifiers are the names given by the user for objects, classes,etc the a)They must not begin with digit
+                          b) Keywords cannot be used as identifiers
+                          c)whitespace characters are also not allowed
+3.literals: constant elements like9.9,100
+4.operaters: 
+   -->  primitive(pre defined)
+           a.byte(1 byte)
+           b.short(2 bytes)
+           c.int(4 bytes)
+           d.long(8 byte)
+           e.float(4 byte)
+           f.double(8 byte)
+           g.boolean(1 bit)
+           h.character(2 bytes)
+
+     -->  non-primitive(user defined)
+            a.string
+            b.array
+
+5.special symbols like (),{},[],;
+
+Naming Conventions:
+     for package word should be in small letter
+     for class and interface word start with capital letter
+     for variable and method starting word small second word with starting        capital letter (ex:readLine())
+     for constants word start with capital letter
+     for keywords word start with small letter
+
+
+public class Implicit{
+	public static void main(string[] args)
+                       {
+                            int i=100; //assigning the value to variable
+                            long l=i; 
+                            System.out.println("int value is" + i);
+                            System.out.println("long value is" + l);
+                         }
+                }
+
+
+public class Explicit{
+                  public static void main(string[] args)
+                       {
+                            int i=100;
+                            long l=(long)i; 
+                            System.out.println("int value is" + i);
+                            System.out.println("long value is" + l);
+                         }
+                }
+
