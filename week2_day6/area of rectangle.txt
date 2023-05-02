@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Area {
+  public static void main (String[] args){
+    Scanner sc=new Scanner(System.in);
+    int length,breadth;
+    System.out.println("enter the values of length and breadth");
+    length=sc.nextInt();
+    breadth=sc.nextInt();
+    System.out.println("area is" +(length*breadth));
+  }
+}

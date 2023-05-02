@@ -1,0 +1,39 @@
+
+
+import java.util.Scanner;
+
+public class Bitwise {
+public static void main (String[] args){
+  Scanner sc=new Scanner(System.in);
+  int a,b;
+   System.out.println("enter the values of a and b");
+  a=sc.nextInt();
+  b=sc.nextInt();
+  // arthimetic operators 
+  System.out.println("a+b ="+ (a+b));
+  System.out.println("a-b ="+ (a-b));
+  System.out.println("a*b ="+ (a*b));
+  System.out.println("a\b ="+ (a/b));
+  System.out.println("a%b ="+ (a%b));
+  // assignment operators
+  System.out.println("a+=b ="+ (a+=b));
+  System.out.println("a-=b ="+ (a-=b));
+  System.out.println("a*=b ="+ (a*=b));
+  System.out.println("a%=b ="+ (a%=b));
+  // realtional opertors
+  System.out.println("a<b ="+ (a<b));
+  System.out.println("a>b ="+ (a>b));
+  System.out.println("a>=b ="+ (a>=b));
+  System.out.println("a<=b ="+ (a<=b));
+  System.out.println("a==b ="+ (a==b));
+  System.out.println("a!=b ="+ (a!=b));
+  // increment and decrement
+   System.out.println("a++ ="+ (a++));
+  System.out.println("a-- ="+ (a--));
+  System.out.println("++a="+ (++a));
+  System.out.println("--a="+ (--a));
+  // 
+  
+  
+}
+}
