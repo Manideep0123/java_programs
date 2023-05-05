@@ -1,0 +1,28 @@
+
+//Write a program to execute the game rock,paper and scissors
+import java.util.Scanner;
+
+public class Program2 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int player1, player2;
+    System.out.println("1.Rock");
+    System.out.println("2.Paper");
+    System.out.println("3.Scissors");
+    player1 = sc.nextInt();
+    player2 = sc.nextInt();
+    if ((player1 == player2))
+      System.out.println("tie");
+    else if ((player1 == 1) && (player2 == 2))
+      System.out.println("player2 wins");
+    else if ((player1 == 1) && (player2 == 3))
+      System.out.println("player1 wins");
+    else if ((player1 == 2) && (player2 == 3))
+      System.out.println("player2 wins");
+    else if ((player1 == 1) && (player2 == 3))
+      System.out.println("player2 wins");
+    else if ((player1 == 3) && (player2 == 2))
+      System.out.println("player1 wins");
+
+  }
+}
